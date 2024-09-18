@@ -23,3 +23,8 @@ print(years)
 print("\n---find periods in text")
 periods = re.findall(r'\d{4}—\d{4}', text)
 print(periods)
+
+print("\n---change EUR to USD in info")
+print(info.replace('EUR', 'USD')) # 'USDO USDOPE' - incorrect!
+result = re.sub(r'\bEUR\b', 'USD', info) # \b обозначает некие границы слова (пробелы, запятые, точки и т.д.)
+print(result) # SUB = SUBSTITUTION (ЗАМЕНА)
