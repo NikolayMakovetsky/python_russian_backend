@@ -1,0 +1,24 @@
+2024-07-17 19:48:57,086 : root : INFO : start service
+2024-07-17 19:49:00,173 : menu : DEBUG : Expression is 1+1
+2024-07-17 19:49:00,173 : logic : DEBUG : Get expression 1+1
+2024-07-17 19:49:00,174 : logic : DEBUG : Evaluated 2
+2024-07-17 19:49:02,124 : menu : DEBUG : Expression is 1+3
+2024-07-17 19:49:02,124 : logic : DEBUG : Get expression 1+3
+2024-07-17 19:49:02,124 : logic : DEBUG : Evaluated 4
+2024-07-17 19:49:05,101 : menu : DEBUG : Expression is 1/0
+2024-07-17 19:49:05,102 : logic : DEBUG : Get expression 1/0
+2024-07-17 19:49:05,102 : logic : ERROR : Exception division by zero
+2024-07-17 19:49:05,102 : menu : INFO : No result back...stopping
+2024-07-17 19:49:05,102 : root : INFO : stop service
+2024-07-17 19:54:01,981 : root : INFO : start service
+2024-07-17 19:54:06,661 : menu : DEBUG : Expression is 5+6
+2024-07-17 19:54:06,662 : logic : DEBUG : Get expression 5+6
+2024-07-17 19:54:06,662 : logic : DEBUG : Evaluated 11
+2024-07-17 19:54:08,997 : menu : DEBUG : Expression is 5-6
+2024-07-17 19:54:08,997 : logic : DEBUG : Get expression 5-6
+2024-07-17 19:54:08,997 : logic : DEBUG : Evaluated -1
+2024-07-17 19:54:11,324 : menu : DEBUG : Expression is 1/0
+2024-07-17 19:54:11,324 : logic : DEBUG : Get expression 1/0
+2024-07-17 19:54:11,324 : logic : ERROR : Exception division by zero
+2024-07-17 19:54:11,324 : menu : INFO : No result back...stopping
+2024-07-17 19:54:11,324 : root : INFO : stop service
