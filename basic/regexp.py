@@ -28,3 +28,10 @@ print("\n---change EUR to USD in info")
 print(info.replace('EUR', 'USD')) # 'USDO USDOPE' - incorrect!
 result = re.sub(r'\bEUR\b', 'USD', info) # \b обозначает некие границы слова (пробелы, запятые, точки и т.д.)
 print(result) # SUB = SUBSTITUTION (ЗАМЕНА)
+
+print("\n---get list of words from text_2")
+words = text_2.split(' ')
+print(words)
+words = re.split(r'\W+', text_2)
+print(words)
+
