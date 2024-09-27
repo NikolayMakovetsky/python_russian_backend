@@ -1,7 +1,7 @@
 ### Создание конфигурации
 1. В Pycharm в правом верхнем углу, слева от кнопки ```Run``` во всплывающем меню выбрать ```Edit Configurations...```
 
-![img](/images/img2.png)
+![img](images/img2.png)
 
 2. В левом верхнем углу окна выбрать ```Add new configuration```
 3. Выбрать ```Unittest```
