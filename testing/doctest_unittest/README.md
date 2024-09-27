@@ -41,7 +41,7 @@ def load_tests(loader, tests, ignore):
 
 ### Настройка конфигураций тестирования
 
-![img](/images/img3.png)
+![img](images/img3.png)
 
 1. В Pycharm в правом верхнем углу, слева от кнопки ```Run``` во всплывающем меню выбрать ```Edit Configurations...```
 2. В левом верхнем углу окна выбрать ```Add new configuration```
